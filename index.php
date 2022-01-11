@@ -11,12 +11,12 @@ $witURL =  $witRoot. "v=". $witVersion . "&q=". urlencode($input_utterance);
 
 $ch = curl_init();
 $header = array();
-$header[] = 'Authorization: Bearer MF6I76FL2MAG2QFBOJ7O4K3UKGZBZW2D';
+$header[] = 'Authorization: Bearer 5QC63SNFDA2HBYGE6A3ARAQ3TAILWYJN';
 
 curl_setopt($ch, CURLOPT_URL, $witURL);
 curl_setopt($ch, CURLOPT_HTTPHEADER,$header); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
-$certificate = "C:\Users\Alonso Cornejo\Downloads\cacert.pem";
+$certificate = "C:\MAMP\htdocs\demo\CS_Chatbot\cacert.pem";
 curl_setopt($ch, CURLOPT_CAINFO, $certificate);
 curl_setopt($ch, CURLOPT_CAPATH, $certificate);
 
