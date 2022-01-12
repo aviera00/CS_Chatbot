@@ -22,9 +22,11 @@ body{
 .chat{
     position: absolute;
     top: 20%;
+    bottom: 10%;
     left: 5%;
     width: 700px;
     background-color: blueviolet;
+    border-radius: 10px;
 }
 
 .bot{
