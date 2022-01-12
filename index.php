@@ -1,6 +1,5 @@
 <?php
 
-
 $input_utterance= 'I failed my exam';
 
 $witRoot = "https://api.wit.ai/message?";
@@ -12,12 +11,12 @@ $witURL =  $witRoot. "v=". $witVersion . "&q=". urlencode($input_utterance);
 
 $ch = curl_init();
 $header = array();
-$header[] = 'Authorization: Bearer 3FSCJJIM4LT4FKTHDMFT6D4O2A63GIXE';
+$header[] = 'Authorization: Bearer 5QC63SNFDA2HBYGE6A3ARAQ3TAILWYJN';
 
 curl_setopt($ch, CURLOPT_URL, $witURL);
 curl_setopt($ch, CURLOPT_HTTPHEADER,$header); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
-$certificate = "./cacert.pem";
+$certificate = "C:\MAMP\htdocs\demo\CS_Chatbot\cacert.pem";
 curl_setopt($ch, CURLOPT_CAINFO, $certificate);
 curl_setopt($ch, CURLOPT_CAPATH, $certificate);
 
