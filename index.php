@@ -1,5 +1,6 @@
 <?php
 
+
 $input_utterance= 'I failed my exam';
 
 $witRoot = "https://api.wit.ai/message?";
@@ -11,12 +12,12 @@ $witURL =  $witRoot. "v=". $witVersion . "&q=". urlencode($input_utterance);
 
 $ch = curl_init();
 $header = array();
-$header[] = 'Authorization: Bearer MF6I76FL2MAG2QFBOJ7O4K3UKGZBZW2D';
+$header[] = 'Authorization: Bearer 3FSCJJIM4LT4FKTHDMFT6D4O2A63GIXE';
 
 curl_setopt($ch, CURLOPT_URL, $witURL);
 curl_setopt($ch, CURLOPT_HTTPHEADER,$header); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
-$certificate = "C:\Users\Alonso Cornejo\Downloads\cacert.pem";
+$certificate = "./cacert.pem";
 curl_setopt($ch, CURLOPT_CAINFO, $certificate);
 curl_setopt($ch, CURLOPT_CAPATH, $certificate);
 
@@ -52,6 +53,7 @@ for ($i = 0; $i < count($server_decoded_rsp); $i++){
   	}
   	mysqli_close($con_db);
 }
+
 
 
 ?>
