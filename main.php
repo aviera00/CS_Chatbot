@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>CSE109 Chatbot</title>
@@ -12,6 +12,7 @@
 
         <div class="chat">
             <h2>Here comes the chat question</h2>
+            <?php echo "Hi"; ?>
             <h2>Here comes the chat answer</h2>
         </div>
 
