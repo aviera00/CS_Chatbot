@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSE109 Chatbot</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
@@ -45,6 +45,18 @@
         <br>
         <p2>Developed by Alonso Cornejo & Andrew Viera</p2>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script>
         $(document).ready(function(){
