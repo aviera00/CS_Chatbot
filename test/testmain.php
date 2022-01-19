@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE109 Chatbot</title>
-    <link rel="stylesheet" href="home.css">
+    <title>Simple Chatbot in PHP | CodingNepal</title>
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
@@ -30,22 +31,7 @@
     </div>
 
 
-
-
-    <div class="bar">
-        <h1>CSE109 Chatbot Tutor</h1>
-    </div>
-
-    <div class="bot">
-        <img src="https://cdn2.iconfinder.com/data/icons/machine-learning-filled-color/300/134026380Untitled-3-512.png">
-    </div>
-
-    <div class="credits">
-        <p1>All Rights Reserved. </p1>
-        <br>
-        <p2>Developed by Alonso Cornejo & Andrew Viera</p2>
-    </div>
-
+    
     <script>
         $(document).ready(function(){
             $("#send-btn").on("click", function(){
