@@ -4,7 +4,7 @@
         <title>CSE109 Chatbot</title>
         <link rel="stylesheet" href="main.css">
     </head>
-        
+
     <body>
         <div class="bar">
             <h1>CSE109 Chatbot Tutor</h1>
@@ -27,6 +27,4 @@
         </div>
     </body>
 </html>
-
-
 
