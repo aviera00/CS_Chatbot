@@ -155,9 +155,12 @@ html,body{
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 4001888dc05e7e0b76256b1dc0af30ec63a4d6fa
 body{
     margin: 0;
     padding: 0;
@@ -177,6 +180,41 @@ body{
 
 .bar h1{
     color: cornflowerblue;
+    margin-left: 80px;
+}
+
+.LehighLogo {
+    width:14%;
+    float: left;
+}
+
+.LehighLogo img{
+    width: auto;
+    top:0;
+    height: 100%;
+    right: auto;
+    position: absolute;
+}
+
+.HelloUser p{
+    margin-left: 80px;
+    color: cornflowerblue;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:10px;
+}
+
+.Logout a{
+    color: rgb(172, 82, 104);
+    width: auto;
+    top:25px;
+    height: 100%;
+    right: auto;
+    position: absolute;
+    margin-left: 1400px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .chat{
@@ -203,10 +241,14 @@ body{
 .credits{
     position: absolute;
     bottom: 0%;
-    top: 95%;
+    top: 93%;
     left: 0%;
     width: 2000px;
+<<<<<<< HEAD
     background-color: rgba(36, 53, 238, 0.842);  
+=======
+    background-color: rgb(65, 67, 73);  
+>>>>>>> 4001888dc05e7e0b76256b1dc0af30ec63a4d6fa
     font-weight: bold;
     
 }
