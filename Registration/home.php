@@ -9,6 +9,23 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
+    
+    <div class="bar">
+        <div class="LehighLogo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/LUwithShield-CMYK.svg/1200px-LUwithShield-CMYK.svg.png">
+        </div>
+
+        <h1>CSE109 Chatbot Tutor</h1>
+
+        <div class="HelloUser">
+            <p> Hello User </p>
+        </div>
+
+        <div class="Logout">
+            <a href="login.php">Logout</a>
+        </div>
+    </div>
+
     <div class="wrapper">
         <div class="title">CSE 109 Tutor</div>
         <div class="form">
@@ -23,17 +40,10 @@
         </div>
         <div class="typing-field">
             <div class="input-data">
-                <input id="data" type="text" placeholder="Type something here.." required>
+                <input id="data" type="text" placeholder="Type your question here.." required>
                 <button id="send-btn">Send</button>
             </div>
         </div>
-    </div>
-
-
-
-
-    <div class="bar">
-        <h1>CSE109 Chatbot Tutor</h1>
     </div>
 
     <div class="bot">

@@ -155,8 +155,6 @@ html,body{
 }
 
 
-
-
 body{
     margin: 0;
     padding: 0;
@@ -176,6 +174,41 @@ body{
 
 .bar h1{
     color: cornflowerblue;
+    margin-left: 80px;
+}
+
+.LehighLogo {
+    width:14%;
+    float: left;
+}
+
+.LehighLogo img{
+    width: auto;
+    top:0;
+    height: 100%;
+    right: auto;
+    position: absolute;
+}
+
+.HelloUser p{
+    margin-left: 80px;
+    color: cornflowerblue;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:10px;
+}
+
+.Logout a{
+    color: rgb(172, 82, 104);
+    width: auto;
+    top:25px;
+    height: 100%;
+    right: auto;
+    position: absolute;
+    margin-left: 1400px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .chat{
@@ -202,10 +235,10 @@ body{
 .credits{
     position: absolute;
     bottom: 0%;
-    top: 95%;
+    top: 93%;
     left: 0%;
     width: 2000px;
-    background-color: rgba(21, 59, 175, 0.842);  
+    background-color: rgb(65, 67, 73);  
     font-weight: bold;
     
 }
