@@ -27,7 +27,3 @@
         </div>
     </body>
 </html>
-<<<<<<< HEAD
-
-=======
->>>>>>> 9dd438e01f5e15b653ec87aa0755d25a7efea32d
