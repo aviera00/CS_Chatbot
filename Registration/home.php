@@ -31,7 +31,7 @@
         <h1>CSE109 Chatbot Tutor</h1>
 
         <div class="HelloUser">
-        <p>Hello <strong><?php echo $_SESSION['username']; ?></strong></p>
+            <p>Hello <strong><?php echo $_SESSION['username']; ?></strong></p>
         </div>
 
         <div class="Logout">
