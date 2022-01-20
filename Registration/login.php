@@ -26,6 +26,7 @@
 
             <div class="Forgot_Password">
                 Forgot Password?
+                <a href="forgor.php">click here</a>
             </div>
 
             <div class="input-group">
