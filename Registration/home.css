@@ -155,12 +155,6 @@ html,body{
 }
 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 4001888dc05e7e0b76256b1dc0af30ec63a4d6fa
 body{
     margin: 0;
     padding: 0;
@@ -244,11 +238,7 @@ body{
     top: 93%;
     left: 0%;
     width: 2000px;
-<<<<<<< HEAD
-    background-color: rgba(36, 53, 238, 0.842);  
-=======
     background-color: rgb(65, 67, 73);  
->>>>>>> 4001888dc05e7e0b76256b1dc0af30ec63a4d6fa
     font-weight: bold;
     
 }
