@@ -28,7 +28,7 @@
             <a href="https://www1.lehigh.edu/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/LUwithShield-CMYK.svg/1200px-LUwithShield-CMYK.svg.png"></a>
         </div>
 
-        <h1>CSE109 Chatbot Tutor</h1>
+        <h1>CSE109-216 Chatbot Tutor</h1>
 
         <div class="HelloUser">
             <p>Hello <strong><?php echo $_SESSION['username']; ?></strong></p>
