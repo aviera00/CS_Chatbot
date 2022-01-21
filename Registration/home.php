@@ -25,7 +25,7 @@
     
     <div class="bar">
         <div class="LehighLogo">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/LUwithShield-CMYK.svg/1200px-LUwithShield-CMYK.svg.png">
+            <a href="https://www1.lehigh.edu/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/LUwithShield-CMYK.svg/1200px-LUwithShield-CMYK.svg.png"></a>
         </div>
 
         <h1>CSE109 Chatbot Tutor</h1>
