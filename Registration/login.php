@@ -25,10 +25,11 @@
             </div>
 
             <div class="Forgot_Password">
-                Forgot Password?
-                <a href="forgor.php">click here</a>
+                <a href="forgor.php">Forgot Password?</a>
             </div>
 
+            <br>
+            
             <div class="input-group">
   		        <button type="submit" class="btn" name="login_user">Login</button>
   	        </div>

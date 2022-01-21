@@ -78,7 +78,7 @@ form .Credentials{
     width: 100%;
 }
 
-.Forgot_Password{
+.Forgot_Password a{
     margin: -5px 0 20px 5px;
     color: #a6a6a6;
     cursor: pointer;
