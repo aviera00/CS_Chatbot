@@ -40,7 +40,7 @@
     </div>
 
     <div class="wrapper">
-        <div class="title">CSE 109 Tutor</div>
+        <div class="title">Montella</div>
         <div class="form">
             <div class="bot-inbox inbox">
                 <div class="icon">
