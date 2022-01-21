@@ -40,7 +40,7 @@
     </div>
 
     <div class="wrapper">
-        <div class="title">Montella</div>
+        <div class="title">Cantinflas</div>
         <div class="form">
             <div class="bot-inbox inbox">
                 <div class="icon">
