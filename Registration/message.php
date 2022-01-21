@@ -6,7 +6,7 @@ $conn = mysqli_connect("localhost", "root", "root", "hw2_witAI") or die("Databas
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
 
 //checking user query to database query
-$check_data = "SELECT answer FROM response WHERE queries LIKE '%$getMesg%'";
+$check_data = "SELECT answer FROM response WHERE keyword LIKE '%$getMesg%'";
 $run_query = mysqli_query($conn, $check_data) or die("Error");
 
 // if user query matched to database query we'll show the reply otherwise it go to else statement
