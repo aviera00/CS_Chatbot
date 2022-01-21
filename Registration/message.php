@@ -10,8 +10,6 @@ stripcslashes($getMesg);
 debug_to_console($getMesg);
 debug_to_console(gettype($getMesg));
 
-//Index Code
-//$input_utterance= 'I like finance';
 
 $witRoot = "https://api.wit.ai/message?";
 $witVersion = '20200804';
