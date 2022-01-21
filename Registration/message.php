@@ -38,7 +38,7 @@ $server_output = curl_exec($ch);
 
 
 curl_close ($ch);
-$server_decoded_rsp = json_decode($server_output)->entities->{"issues:issues"};
+$server_decoded_rsp = json_decode($server_output)->entities->{"QA:QA"};
 $response = "";
 $answer='';
 for ($i = 0; $i < count($server_decoded_rsp); $i++){
@@ -48,7 +48,7 @@ for ($i = 0; $i < count($server_decoded_rsp); $i++){
     	echo "Failed to connect  to MYSql:" . mysqli_connect_error();
   	}*/
     
-  	$sql_command = "SELECT answer FROM response WHERE keyword = '{$keyword}'";
+  	$sql_command = "SELECT Answer FROM qa WHERE Keyword = '{$keyword}'";
   	$result = mysqli_query($con_db, $sql_command);
   	$num_rows = mysqli_num_rows($result);
   	if ($num_rows > 0) {
@@ -72,7 +72,7 @@ function debug_to_console($data) {
 
 
 //checking user query to database query
-$check_data = "SELECT answer FROM response WHERE keyword = '{$keyword}'";
+$check_data = "SELECT Answer FROM qa WHERE Keyword = '{$keyword}'";
 
 $run_query = mysqli_query($conn, $check_data) or die("Error");
 
