@@ -5,8 +5,11 @@ $conn = mysqli_connect("localhost", "root", "root", "hw2_witAI") or die("Databas
 
 // getting user message through ajax
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
+stripcslashes($getMesg);
 
 debug_to_console($getMesg);
+debug_to_console(gettype($getMesg));
+
 //Index Code
 //$input_utterance= 'I like finance';
 
@@ -69,7 +72,7 @@ function debug_to_console($data) {
 
 
 //checking user query to database query
-$check_data = "SELECT answer FROM response WHERE keyword = '{$getMesg}'";
+$check_data = "SELECT answer FROM response WHERE keyword = '{$keyword}'";
 
 $run_query = mysqli_query($conn, $check_data) or die("Error");
 
