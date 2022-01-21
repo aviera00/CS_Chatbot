@@ -27,7 +27,7 @@ html,body{
     background: #ccc;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: #b700ff;
+    background: #ccc;
 }
 
 .wrapper{
