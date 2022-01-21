@@ -76,7 +76,7 @@
                 $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
                 $(".form").append($msg);
                 $("#data").val('');
-                
+                console.log($("#data").val(''))
                 // start ajax code
                 $.ajax({
                     url: 'message.php',
