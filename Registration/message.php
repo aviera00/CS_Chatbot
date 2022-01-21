@@ -7,10 +7,11 @@ $conn = mysqli_connect("localhost", "root", "root", "hw2_witAI") or die("Databas
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
 stripcslashes($getMesg);
 
+
 debug_to_console($getMesg);
 debug_to_console(gettype($getMesg));
 
-
+//Setting up the wit AI
 $witRoot = "https://api.wit.ai/message?";
 $witVersion = '20200804';
 
@@ -42,10 +43,7 @@ $answer='';
 for ($i = 0; $i < count($server_decoded_rsp); $i++){
     $keyword = $server_decoded_rsp[$i]->value;
 	$con_db = mysqli_connect("localhost", "root", "root", "hw2_witAI"); 
-  	/*if (mysqli_connect_errno($con_db)) {
-    	echo "Failed to connect  to MYSql:" . mysqli_connect_error();
-  	}*/
-    
+  	
   	$sql_command = "SELECT Answer FROM qa WHERE Keyword = '{$keyword}'";
   	$result = mysqli_query($con_db, $sql_command);
   	$num_rows = mysqli_num_rows($result);
@@ -58,7 +56,7 @@ for ($i = 0; $i < count($server_decoded_rsp); $i++){
   	mysqli_close($con_db);
 }
 
-//end of index code
+//Debugging
 function debug_to_console($data) {
     $output = $data;
     if (is_array($output))
