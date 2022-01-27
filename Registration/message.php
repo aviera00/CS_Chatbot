@@ -19,7 +19,7 @@ $witURL =  $witRoot. "v=". $witVersion . "&q=". urlencode($getMesg);
 
 $ch = curl_init();
 $header = array();
-$header[] = 'Authorization: Bearer MF6I76FL2MAG2QFBOJ7O4K3UKGZBZW2D';
+$header[] = 'Authorization: Bearer';//after Bearer add your Wit.Ai token
 
 curl_setopt($ch, CURLOPT_URL, $witURL);
 curl_setopt($ch, CURLOPT_HTTPHEADER,$header); 
