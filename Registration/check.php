@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-// initializing variables
+//Initializing variables
 $username = "";
 $errors = array(); 
 
-// connect to the database
+//Connect to the database
 $db = mysqli_connect("localhost", "root", "root", "hw2_witAI");
 
-// Reset password
+//Reset password
 if (isset($_POST['reset_user'])) {
     $username = mysqli_real_escape_string($db, $_POST['username']);
   

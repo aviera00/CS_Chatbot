@@ -1,13 +1,13 @@
 <?php
 
-// connecting to database
+//Connecting to database
 $conn = mysqli_connect("localhost", "root", "root", "hw2_witAI") or die("Database Error");
 
-// getting user message through ajax
+//Getting user message through ajax
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
 stripcslashes($getMesg);
 
-
+//Debug Console for dealing with bugs
 debug_to_console($getMesg);
 debug_to_console(gettype($getMesg));
 
@@ -28,7 +28,7 @@ $certificate = "C:\MAMP\htdocs\demo\CS_Chatbot\cacert.pem";
 curl_setopt($ch, CURLOPT_CAINFO, $certificate);
 curl_setopt($ch, CURLOPT_CAPATH, $certificate);
 
-//if a curl error is thrown
+//If a curl error is thrown
 if(curl_errno($ch)){
     echo 'Curl error: ' . curl_error($ch);
 }
@@ -67,16 +67,16 @@ function debug_to_console($data) {
 
 
 
-//checking user query to database query
+//Checking user query to database query
 $check_data = "SELECT Answer FROM qa WHERE Keyword = '{$keyword}'";
 
 $run_query = mysqli_query($conn, $check_data) or die("Error");
 
-// if user query matched to database query we'll show the reply otherwise it go to else statement
+// If user query matched to database query we'll show the reply otherwise it go to else statement
 if(mysqli_num_rows($run_query) > 0){
-    //fetching replay from the database according to the user query
+    //Fetching replay from the database according to the user query
     $fetch_data = mysqli_fetch_assoc($run_query);
-    //storing replay to a varible which we'll send to ajax
+    //Storing replay to a varible which we'll send to ajax
     $replay = $fetch_data['answer'];
     echo $answer;
 }else{

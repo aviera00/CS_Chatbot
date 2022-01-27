@@ -5,6 +5,104 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 2000px;
+    background-color: rgb(65, 67, 73);  
+}
+
+.bar h1{
+    color: cornflowerblue;
+    margin-left: 80px;
+}
+
+.LehighLogo {
+    width:14%;
+    float: left;
+}
+
+.LehighLogo img{
+    width: auto;
+    top:0;
+    height: 100%;
+    right: auto;
+    position: absolute;
+}
+
+.HelloUser p{
+    margin-left: 80px;
+    color: cornflowerblue;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:10px;
+}
+
+.Logout a{
+    color: rgb(172, 82, 104);
+    width: auto;
+    top:25px;
+    height: 100%;
+    right: auto;
+    position: absolute;
+    margin-left: 1400px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.chat{
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    left: 5%;
+    width: 700px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.bot{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.bot img{
+    max-width: 100%;  
+    height: auto;  
+}
+
+.credits{
+    position: absolute;
+    bottom: 0%;
+    top: 93%;
+    left: 0%;
+    width: 2000px;
+    background-color: rgb(65, 67, 73);  
+    font-weight: bold;
+    
+}
+
+.credits p1{
+    position: absolute;
+    left:700px; 
+}
+
+.credits p2{
+    position: relative;
+    left:620px; 
+}
+
 html,body{
     display: grid;
     height: 100%;
@@ -155,100 +253,3 @@ html,body{
 }
 
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: montserrat;
-    background: linear-gradient(120deg,#2980b9,#8e44ad);
-    height: 100vh;
-    overflow: hidden;
-}
-
-.bar{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 2000px;
-    background-color: rgb(65, 67, 73);  
-}
-
-.bar h1{
-    color: cornflowerblue;
-    margin-left: 80px;
-}
-
-.LehighLogo {
-    width:14%;
-    float: left;
-}
-
-.LehighLogo img{
-    width: auto;
-    top:0;
-    height: 100%;
-    right: auto;
-    position: absolute;
-}
-
-.HelloUser p{
-    margin-left: 80px;
-    color: cornflowerblue;
-    font-size: larger;
-    font-weight: bolder;
-    bottom:10px;
-}
-
-.Logout a{
-    color: rgb(172, 82, 104);
-    width: auto;
-    top:25px;
-    height: 100%;
-    right: auto;
-    position: absolute;
-    margin-left: 1400px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: larger;
-}
-
-.chat{
-    position: absolute;
-    top: 20%;
-    bottom: 10%;
-    left: 5%;
-    width: 700px;
-    background-color: blueviolet;
-    border-radius: 10px;
-}
-
-.bot{
-    position: absolute;
-    top: 20%;
-    left: 60%;
-}
-
-.bot img{
-    max-width: 100%;  
-    height: auto;  
-}
-
-.credits{
-    position: absolute;
-    bottom: 0%;
-    top: 93%;
-    left: 0%;
-    width: 2000px;
-    background-color: rgb(65, 67, 73);  
-    font-weight: bold;
-    
-}
-
-.credits p1{
-    position: absolute;
-    left:700px; 
-}
-
-.credits p2{
-    position: relative;
-    left:620px; 
-}

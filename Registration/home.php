@@ -77,7 +77,7 @@
                 $(".form").append($msg);
                 $("#data").val('');
                 console.log($("#data").val(''))
-                // start ajax code
+                //Start ajax code
                 $.ajax({
                     url: 'message.php',
                     type: 'POST',
@@ -85,7 +85,7 @@
                     success: function(result){
                         $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
                         $(".form").append($replay);
-                        // when chat goes down the scroll bar automatically comes to the bottom
+                        //Moving Scroll Bar to the bottom
                         $(".form").scrollTop($(".form")[0].scrollHeight);
                     }
                 });
